@@ -7,10 +7,6 @@ on:
         description: "Semantic version without the v prefix (for example: 1.0.0)"
         required: true
         type: string
-      release_notes:
-        description: "Markdown describing what changed in this release"
-        required: true
-        type: string
 
 permissions:
   contents: write
@@ -47,13 +43,7 @@ jobs:
       - name: Write release notes
         env:
           VERSION: ${{ inputs.version }}
-          RELEASE_NOTES: ${{ inputs.release_notes }}
         run: |
-          if [[ -z "${RELEASE_NOTES//[[:space:]]/}" ]]; then
-            echo "::error::Release notes must not be blank."
-            exit 1
-          fi
-
           cat > dist/release-notes.md <<EOF
           # Clear Code Pro ${VERSION}
 
@@ -73,11 +63,6 @@ jobs:
           the SIL Open Font License 1.1. See the included README and LICENSE for
           the controlling terms.
           EOF
-
-          {
-            printf '\n## What changed\n\n'
-            printf '%s\n' "${RELEASE_NOTES}"
-          } >> dist/release-notes.md
 
       - name: Publish the GitHub Release
         env:
