@@ -1,0 +1,77 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Semantic version without the v prefix (for example: 1.0.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ inputs.version }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Package and publish v${{ inputs.version }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the release commit
+        uses: actions/checkout@v4
+
+      - name: Package the font files
+        id: package
+        env:
+          VERSION: ${{ inputs.version }}
+        run: bash scripts/package-release.sh "${VERSION}"
+
+      - name: Ensure the release tag is new
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          tag="v${VERSION}"
+          if git ls-remote --exit-code --tags origin "refs/tags/${tag}" >/dev/null 2>&1; then
+            echo "::error::Tag ${tag} already exists. Choose a new Semantic Version."
+            exit 1
+          fi
+
+      - name: Write release notes
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          cat > dist/release-notes.md <<EOF
+          # Clear Code Pro ${VERSION}
+
+          Clear Code Pro is a readability-focused programming font derived from
+          SauceCodePro Nerd Font and Adobe Source Code Pro.
+
+          ## Included
+
+          - 42 TrueType font files
+          - Seven weights with upright and italic styles
+          - Clear Code Pro, Clear Code Pro Mono, and Clear Code Pro Propo families
+          - Nerd Fonts glyph set
+          - README, SIL Open Font License 1.1, and FONTLOG
+
+          Download **ClearCodePro-v${VERSION}.zip** below. Commercial use,
+          modification, embedding, and redistribution are permitted subject to
+          the SIL Open Font License 1.1. See the included README and LICENSE for
+          the controlling terms.
+          EOF
+
+      - name: Publish the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+          ARCHIVE: ${{ steps.package.outputs.archive }}
+        run: |
+          gh release create "v${VERSION}" "${ARCHIVE}" \
+            --target "${GITHUB_SHA}" \
+            --title "Clear Code Pro ${VERSION}" \
+            --notes-file dist/release-notes.md \
+            --latest

@@ -60,6 +60,24 @@ practice, not an additional license condition.
 The full, controlling terms are in [LICENSE.txt](LICENSE.txt). This summary is
 not a substitute for the license.
 
+## Publishing a release
+
+Releases use [Semantic Versioning](https://semver.org/), with Git tags prefixed
+by `v` (for example, version `1.0.0` uses tag `v1.0.0`).
+
+Publishing is deliberately manual:
+
+1. Open the repository's **Actions** tab on GitHub.
+2. Select **Publish release**.
+3. Choose **Run workflow**.
+4. Enter a Semantic Version without the `v` prefix, such as `1.0.0`.
+5. Select **Run workflow** to package and publish the release.
+
+The workflow validates the version, packages all three font families with this
+README, the license, and `FONTLOG.txt`, creates the corresponding Git tag, and
+publishes the ZIP as the latest GitHub Release. It runs only through the manual
+`workflow_dispatch` button; commits and pushes do not publish releases.
+
 ## Credits
 
 - Clear Code Pro customization: CrazyKidJack

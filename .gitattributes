@@ -4,3 +4,5 @@
 LICENSE.txt text eol=lf
 FONTLOG.txt text eol=lf
 *.md text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
