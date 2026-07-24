@@ -125,7 +125,7 @@ def comparison_svg(repo: Path, upstream: Path, glyph: str, name: str) -> str:
                 outlined_text(font_path, glyph, x + 260, y + 122, 88, color)
             )
             parts.append(
-                outlined_text(font_path, glyph, x + 515, y + 112, 34, color)
+                outlined_text(font_path, glyph, x + 515, y + 112, 22, color)
             )
             parts.append(
                 f'<text class="hint" x="{x + 260}" y="{y + 150}" '
@@ -155,8 +155,8 @@ def distinction_svg(repo: Path, upstream: Path) -> str:
         )
     rows = (
         ("Large · Upright", False, 68, 215),
-        ("Small · Upright", False, 30, 345),
-        ("Small · Italic", True, 30, 455),
+        ("Small · Upright", False, 20, 345),
+        ("Small · Italic", True, 20, 455),
     )
     for index, (label, italic, size, baseline) in enumerate(rows):
         top = (126, 270, 380)[index]
