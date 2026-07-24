@@ -1,0 +1,40 @@
+FONTLOG for Clear Code Pro
+==========================
+
+Clear Code Pro is a modified version of SauceCodePro Nerd Font from the Nerd
+Fonts 3.4.0 release. SauceCodePro Nerd Font is based on Adobe Source Code Pro
+2.042 / 1.062. The font metadata identifies Paul D. Hunt and Teo Tuominen as
+authors.
+
+Clear Code Pro changes
+----------------------
+
+- Renamed the font families to Clear Code Pro, Clear Code Pro Mono, and Clear
+  Code Pro Propo.
+- Reversed and emphasized the slashed zero.
+- Amplified the tilde.
+- Gave the numeral 1 a longer, more visible top flag.
+- Revised the exclamation mark with a narrower, convex inverted-bowling-pin
+  stem and a larger stem-to-dot gap.
+- Revised the percent sign with hollow circles, enlarged counters, increased
+  spacing, and a continuous slash.
+- Opened the ampersand's upper loop by removing its descending upper-right
+  segment while retaining the upper crown.
+
+The release contains seven weights, each in upright and italic styles, for all
+three families.
+
+Upstream projects
+-----------------
+
+Source Code Pro:
+https://github.com/adobe-fonts/source-code-pro
+
+Nerd Fonts:
+https://github.com/ryanoasis/nerd-fonts
+
+Licensing
+---------
+
+Clear Code Pro remains licensed under the SIL Open Font License, Version 1.1.
+See LICENSE.txt for the copyright notices and complete license text.

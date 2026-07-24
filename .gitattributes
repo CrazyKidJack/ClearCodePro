@@ -1,0 +1,6 @@
+*.ttf binary
+*.zip binary
+
+LICENSE.txt text eol=lf
+FONTLOG.txt text eol=lf
+*.md text eol=lf
