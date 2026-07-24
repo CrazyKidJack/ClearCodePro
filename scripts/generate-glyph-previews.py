@@ -122,25 +122,32 @@ def comparison_svg(repo: Path, upstream: Path, glyph: str, name: str) -> str:
                 f'fill="{color}">{label}</text>'
             )
             parts.append(
-                outlined_text(font_path, glyph, x + 260, y + 122, 88, color)
+                outlined_text(font_path, glyph, x + 205, y + 122, 88, color)
             )
             parts.append(
-                outlined_text(font_path, glyph, x + 515, y + 112, 22, color)
+                outlined_text(font_path, glyph, x + 420, y + 112, 34, color)
             )
             parts.append(
-                f'<text class="hint" x="{x + 260}" y="{y + 150}" '
+                outlined_text(font_path, glyph, x + 575, y + 108, 14, color)
+            )
+            parts.append(
+                f'<text class="hint" x="{x + 205}" y="{y + 150}" '
                 'text-anchor="middle">Large</text>'
             )
             parts.append(
-                f'<text class="hint" x="{x + 515}" y="{y + 150}" '
+                f'<text class="hint" x="{x + 420}" y="{y + 150}" '
                 'text-anchor="middle">Small</text>'
+            )
+            parts.append(
+                f'<text class="hint" x="{x + 575}" y="{y + 150}" '
+                'text-anchor="middle">Tiny</text>'
             )
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def distinction_svg(repo: Path, upstream: Path) -> str:
-    height = 520
+    height = 730
     sample = "1|ilIL!"
     parts = svg_start(
         height,
@@ -155,11 +162,13 @@ def distinction_svg(repo: Path, upstream: Path) -> str:
         )
     rows = (
         ("Large · Upright", False, 68, 215),
-        ("Small · Upright", False, 20, 345),
-        ("Small · Italic", True, 20, 455),
+        ("Small · Upright", False, 30, 345),
+        ("Small · Italic", True, 30, 455),
+        ("Tiny · Upright", False, 14, 565),
+        ("Tiny · Italic", True, 14, 675),
     )
     for index, (label, italic, size, baseline) in enumerate(rows):
-        top = (126, 270, 380)[index]
+        top = (126, 270, 380, 490, 600)[index]
         parts.append(f'<rect x="24" y="{top}" width="1392" height="{124 if index == 0 else 96}" '
                      'rx="14" fill="#ffffff" stroke="#e2e8f0"/>')
         parts.append(f'<text class="row" x="48" y="{baseline - 15}">{label}</text>')

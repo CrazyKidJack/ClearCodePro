@@ -14,8 +14,8 @@ sizes. See [FONTLOG.txt](FONTLOG.txt) for the modification history.
 These previews compare the exact glyph outlines from SauceCodePro Nerd Font
 3.4.0 with Clear Code Pro. Each modified character has separate upright and
 italic 2×2 grids comparing upstream bold, upstream regular, Clear Code Pro
-bold, and Clear Code Pro regular. Every grid cell shows the glyph at both large
-and small sizes.
+bold, and Clear Code Pro regular. Every grid cell shows the glyph at large,
+small, and tiny sizes.
 
 ### Zero
 

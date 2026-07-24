@@ -9,51 +9,67 @@
 <text class="row" x="32" y="108">Upright</text>
 <rect x="24" y="126" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="48" y="156" fill="#475569">Upstream Bold</text>
-<path d="M79 0V119H250V486H109V577Q174 587 213.0 600.0Q252 613 289 635H397V119H541V0Z" transform="translate(257.60 248.00) scale(0.088000 -0.088000)" fill="#475569"/>
-<path d="M79 0V119H250V486H109V577Q174 587 213.0 600.0Q252 613 289 635H397V119H541V0Z" transform="translate(532.40 238.00) scale(0.022000 -0.022000)" fill="#475569"/>
-<text class="hint" x="284" y="276" text-anchor="middle">Large</text>
-<text class="hint" x="539" y="276" text-anchor="middle">Small</text>
+<path d="M79 0V119H250V486H109V577Q174 587 213.0 600.0Q252 613 289 635H397V119H541V0Z" transform="translate(202.60 248.00) scale(0.088000 -0.088000)" fill="#475569"/>
+<path d="M79 0V119H250V486H109V577Q174 587 213.0 600.0Q252 613 289 635H397V119H541V0Z" transform="translate(433.80 238.00) scale(0.034000 -0.034000)" fill="#475569"/>
+<path d="M79 0V119H250V486H109V577Q174 587 213.0 600.0Q252 613 289 635H397V119H541V0Z" transform="translate(594.80 234.00) scale(0.014000 -0.014000)" fill="#475569"/>
+<text class="hint" x="229" y="276" text-anchor="middle">Large</text>
+<text class="hint" x="444" y="276" text-anchor="middle">Small</text>
+<text class="hint" x="599" y="276" text-anchor="middle">Tiny</text>
 <rect x="728" y="126" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="752" y="156" fill="#64748b">Upstream Regular</text>
-<path d="M97 0V68H281V538H138V591Q194 599 232.5 610.5Q271 622 302 638H363V68H530V0Z" transform="translate(961.60 248.00) scale(0.088000 -0.088000)" fill="#64748b"/>
-<path d="M97 0V68H281V538H138V591Q194 599 232.5 610.5Q271 622 302 638H363V68H530V0Z" transform="translate(1236.40 238.00) scale(0.022000 -0.022000)" fill="#64748b"/>
-<text class="hint" x="988" y="276" text-anchor="middle">Large</text>
-<text class="hint" x="1243" y="276" text-anchor="middle">Small</text>
+<path d="M97 0V68H281V538H138V591Q194 599 232.5 610.5Q271 622 302 638H363V68H530V0Z" transform="translate(906.60 248.00) scale(0.088000 -0.088000)" fill="#64748b"/>
+<path d="M97 0V68H281V538H138V591Q194 599 232.5 610.5Q271 622 302 638H363V68H530V0Z" transform="translate(1137.80 238.00) scale(0.034000 -0.034000)" fill="#64748b"/>
+<path d="M97 0V68H281V538H138V591Q194 599 232.5 610.5Q271 622 302 638H363V68H530V0Z" transform="translate(1298.80 234.00) scale(0.014000 -0.014000)" fill="#64748b"/>
+<text class="hint" x="933" y="276" text-anchor="middle">Large</text>
+<text class="hint" x="1148" y="276" text-anchor="middle">Small</text>
+<text class="hint" x="1303" y="276" text-anchor="middle">Tiny</text>
 <rect x="24" y="304" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="48" y="334" fill="#0f766e">Clear Code Bold</text>
-<path d="M104 0V119H275V486L79 464V572Q199 587 238.0 600.0Q277 613 314 635H422V119H566V0Z" transform="translate(257.60 426.00) scale(0.088000 -0.088000)" fill="#0f766e"/>
-<path d="M104 0V119H275V486L79 464V572Q199 587 238.0 600.0Q277 613 314 635H422V119H566V0Z" transform="translate(532.40 416.00) scale(0.022000 -0.022000)" fill="#0f766e"/>
-<text class="hint" x="284" y="454" text-anchor="middle">Large</text>
-<text class="hint" x="539" y="454" text-anchor="middle">Small</text>
+<path d="M104 0V119H275V486L79 464V572Q199 587 238.0 600.0Q277 613 314 635H422V119H566V0Z" transform="translate(202.60 426.00) scale(0.088000 -0.088000)" fill="#0f766e"/>
+<path d="M104 0V119H275V486L79 464V572Q199 587 238.0 600.0Q277 613 314 635H422V119H566V0Z" transform="translate(433.80 416.00) scale(0.034000 -0.034000)" fill="#0f766e"/>
+<path d="M104 0V119H275V486L79 464V572Q199 587 238.0 600.0Q277 613 314 635H422V119H566V0Z" transform="translate(594.80 412.00) scale(0.014000 -0.014000)" fill="#0f766e"/>
+<text class="hint" x="229" y="454" text-anchor="middle">Large</text>
+<text class="hint" x="444" y="454" text-anchor="middle">Small</text>
+<text class="hint" x="599" y="454" text-anchor="middle">Tiny</text>
 <rect x="728" y="304" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="752" y="334" fill="#0369a1">Clear Code Regular</text>
-<path d="M103 0V68H287V538L97 521V588Q200 599 238.5 610.5Q277 622 308 638H369V68H536V0Z" transform="translate(961.60 426.00) scale(0.088000 -0.088000)" fill="#0369a1"/>
-<path d="M103 0V68H287V538L97 521V588Q200 599 238.5 610.5Q277 622 308 638H369V68H536V0Z" transform="translate(1236.40 416.00) scale(0.022000 -0.022000)" fill="#0369a1"/>
-<text class="hint" x="988" y="454" text-anchor="middle">Large</text>
-<text class="hint" x="1243" y="454" text-anchor="middle">Small</text>
+<path d="M103 0V68H287V538L97 521V588Q200 599 238.5 610.5Q277 622 308 638H369V68H536V0Z" transform="translate(906.60 426.00) scale(0.088000 -0.088000)" fill="#0369a1"/>
+<path d="M103 0V68H287V538L97 521V588Q200 599 238.5 610.5Q277 622 308 638H369V68H536V0Z" transform="translate(1137.80 416.00) scale(0.034000 -0.034000)" fill="#0369a1"/>
+<path d="M103 0V68H287V538L97 521V588Q200 599 238.5 610.5Q277 622 308 638H369V68H536V0Z" transform="translate(1298.80 412.00) scale(0.014000 -0.014000)" fill="#0369a1"/>
+<text class="hint" x="933" y="454" text-anchor="middle">Large</text>
+<text class="hint" x="1148" y="454" text-anchor="middle">Small</text>
+<text class="hint" x="1303" y="454" text-anchor="middle">Tiny</text>
 <text class="row" x="32" y="518">Italic</text>
 <rect x="24" y="536" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="48" y="566" fill="#475569">Upstream Bold</text>
-<path d="M21 0 44 110H216L293 493H153L170 579Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(257.60 658.00) scale(0.088000 -0.088000)" fill="#475569"/>
-<path d="M21 0 44 110H216L293 493H153L170 579Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(532.40 648.00) scale(0.022000 -0.022000)" fill="#475569"/>
-<text class="hint" x="284" y="686" text-anchor="middle">Large</text>
-<text class="hint" x="539" y="686" text-anchor="middle">Small</text>
+<path d="M21 0 44 110H216L293 493H153L170 579Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(202.60 658.00) scale(0.088000 -0.088000)" fill="#475569"/>
+<path d="M21 0 44 110H216L293 493H153L170 579Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(433.80 648.00) scale(0.034000 -0.034000)" fill="#475569"/>
+<path d="M21 0 44 110H216L293 493H153L170 579Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(594.80 644.00) scale(0.014000 -0.014000)" fill="#475569"/>
+<text class="hint" x="229" y="686" text-anchor="middle">Large</text>
+<text class="hint" x="444" y="686" text-anchor="middle">Small</text>
+<text class="hint" x="599" y="686" text-anchor="middle">Tiny</text>
 <rect x="728" y="536" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="752" y="566" fill="#64748b">Upstream Regular</text>
-<path d="M39 0 53 64H236L332 542H191L201 592Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(961.60 658.00) scale(0.088000 -0.088000)" fill="#64748b"/>
-<path d="M39 0 53 64H236L332 542H191L201 592Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1236.40 648.00) scale(0.022000 -0.022000)" fill="#64748b"/>
-<text class="hint" x="988" y="686" text-anchor="middle">Large</text>
-<text class="hint" x="1243" y="686" text-anchor="middle">Small</text>
+<path d="M39 0 53 64H236L332 542H191L201 592Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(906.60 658.00) scale(0.088000 -0.088000)" fill="#64748b"/>
+<path d="M39 0 53 64H236L332 542H191L201 592Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1137.80 648.00) scale(0.034000 -0.034000)" fill="#64748b"/>
+<path d="M39 0 53 64H236L332 542H191L201 592Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1298.80 644.00) scale(0.014000 -0.014000)" fill="#64748b"/>
+<text class="hint" x="933" y="686" text-anchor="middle">Large</text>
+<text class="hint" x="1148" y="686" text-anchor="middle">Small</text>
+<text class="hint" x="1303" y="686" text-anchor="middle">Tiny</text>
 <rect x="24" y="714" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="48" y="744" fill="#0f766e">Clear Code Bold</text>
-<path d="M21 0 44 110H216L293 493L98 471L115 574Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(257.60 836.00) scale(0.088000 -0.088000)" fill="#0f766e"/>
-<path d="M21 0 44 110H216L293 493L98 471L115 574Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(532.40 826.00) scale(0.022000 -0.022000)" fill="#0f766e"/>
-<text class="hint" x="284" y="864" text-anchor="middle">Large</text>
-<text class="hint" x="539" y="864" text-anchor="middle">Small</text>
+<path d="M21 0 44 110H216L293 493L98 471L115 574Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(202.60 836.00) scale(0.088000 -0.088000)" fill="#0f766e"/>
+<path d="M21 0 44 110H216L293 493L98 471L115 574Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(433.80 826.00) scale(0.034000 -0.034000)" fill="#0f766e"/>
+<path d="M21 0 44 110H216L293 493L98 471L115 574Q232 587 276.0 600.0Q320 613 357 635H458L353 110H501L479 0Z" transform="translate(594.80 822.00) scale(0.014000 -0.014000)" fill="#0f766e"/>
+<text class="hint" x="229" y="864" text-anchor="middle">Large</text>
+<text class="hint" x="444" y="864" text-anchor="middle">Small</text>
+<text class="hint" x="599" y="864" text-anchor="middle">Tiny</text>
 <rect x="728" y="714" width="688" height="164" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
 <text class="header" x="752" y="744" fill="#0369a1">Clear Code Regular</text>
-<path d="M39 0 53 64H236L332 542L144 525L154 589Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(961.60 836.00) scale(0.088000 -0.088000)" fill="#0369a1"/>
-<path d="M39 0 53 64H236L332 542L144 525L154 589Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1236.40 826.00) scale(0.022000 -0.022000)" fill="#0369a1"/>
-<text class="hint" x="988" y="864" text-anchor="middle">Large</text>
-<text class="hint" x="1243" y="864" text-anchor="middle">Small</text>
+<path d="M39 0 53 64H236L332 542L144 525L154 589Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(906.60 836.00) scale(0.088000 -0.088000)" fill="#0369a1"/>
+<path d="M39 0 53 64H236L332 542L144 525L154 589Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1137.80 826.00) scale(0.034000 -0.034000)" fill="#0369a1"/>
+<path d="M39 0 53 64H236L332 542L144 525L154 589Q254 598 296.5 609.5Q339 621 370 638H428L312 64H483L471 0Z" transform="translate(1298.80 822.00) scale(0.014000 -0.014000)" fill="#0369a1"/>
+<text class="hint" x="933" y="864" text-anchor="middle">Large</text>
+<text class="hint" x="1148" y="864" text-anchor="middle">Small</text>
+<text class="hint" x="1303" y="864" text-anchor="middle">Tiny</text>
 </svg>
